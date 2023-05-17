@@ -1,4 +1,5 @@
 #include "mainwindow.h"
+#include "photo.h"
 #include "./ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -11,5 +12,13 @@ MainWindow::MainWindow(QWidget *parent)
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    Photo window;
+    window.setModal(true);
+    window.exec();
 }
 
