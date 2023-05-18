@@ -1,7 +1,7 @@
-<?xml version='1.0'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Photo</class>
- <widget name="Photo" class="QDialog">
+ <widget class="QDialog" name="Photo">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,8 +11,21 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Image</string>
   </property>
+  <widget class="QLabel" name="image">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>621</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

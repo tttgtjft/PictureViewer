@@ -20,6 +20,7 @@ set(PROJECT_SOURCES
         photo.cpp
         photo.h
         photo.ui
+        resources.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
