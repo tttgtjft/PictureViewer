@@ -27,7 +27,7 @@ void MainWindow::on_pushButton_clicked()
     QImage im(path);
     if (im.isNull())
     {
-        QMessageBox::warning(this, "Image error", "The image doesn't exist");
+        QMessageBox::warning(this, "File read error", "The image doesn't exist");
     }
     else
     {
